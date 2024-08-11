@@ -7,3 +7,205 @@
     font-style: normal;
 }
 
+/* shared styles */
+.display-flex {
+    display: flex;
+}
+
+.container {
+    background-color: black;
+
+}
+
+.bg-secondary {
+    background-color: #8080804d;
+}
+
+.span {
+    color: #E6533C;
+}
+
+
+
+/* header styles */
+.header {
+    color: white;
+}
+
+
+/* navbar related styles */
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+   
+
+}
+
+.brand {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-left: 10%;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.about {
+    width: 400px;
+    height: 50px;
+    margin-right: 60px;
+    /* border: 2px solid tomato; */
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+
+
+
+}
+
+/* .navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+} */
+
+.home {
+    background-color: #E6533C;
+    padding: 8px 20px 8px 20px;
+    margin: 50px 27px;
+    border-radius: 40px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: -3%;
+}
+
+.nav-hamburger-menu {
+    display: none;
+}
+
+/* banner styles start here */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 15%;
+    margin-top: 3%;
+}
+
+.banner-text h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: -33%;
+    margin-top: -10%;
+}
+
+.banner-text p {
+    color: #FFFFFF80;
+}
+
+.btn-primary {
+    width: 176px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 28px;
+    background-color: rgb(255, 84, 0);
+    color: white;
+    border: 1px solid rgb(255, 84, 0);
+}
+
+.btn-btn {
+    width: 176px;
+    height: 50px;
+    border-radius: 28px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
+.bg-btn {
+    display: flex;
+    gap: 10px;
+    padding: 0.7rem 1.2rem;
+    font-weight: 800;
+
+}
+
+.banner-images {
+    position: relative;
+}
+
+.banner-images img {
+    width: 80%;
+    height: 80%;
+    margin-top: -14%;
+    border: 2px solid tomato;
+}
+
+.card-1 {
+    width: 153px;
+    height: 78px;
+    position: absolute;
+    top: 15%;
+    right: 0%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+.card-1 h1 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: -4%;
+    color: rgb(255, 255, 255);
+}
+
+.card-1 p {
+    margin-top: -12%;
+    color: #808080f2;
+}
+
+.card-2 {
+
+    width: 150px;
+    height: 95px;
+    position: absolute;
+    left: -15%;
+    margin-top: -35%;
+    border: 2px solid red;
+}
+
+.boll {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    left: 2px;
+    top: 10px;
+    background-color: #E6533C;
+}
+
+.card-2 h1{
+    position: absolute;
+   margin-top: -20%;
+   left: 130%;
+
+}
+
+.card-2 p{
+    position: absolute;
+   top: 80%;
+ 
+}

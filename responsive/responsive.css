@@ -1,0 +1,27 @@
+@media screen and (max-width:800px) {
+    .navbar {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .nav-hamburger-menu {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .navbar {
+        flex-direction: row;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner-images img{
+        margin-top: 10%;
+    }
+}
