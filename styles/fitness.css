@@ -148,7 +148,7 @@
     width: 80%;
     height: 80%;
     margin-top: -14%;
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
 }
 
 .card-1 {
@@ -178,12 +178,16 @@
 
 .card-2 {
 
-    width: 150px;
-    height: 95px;
+    width: 153px;
+    height: 78px;
     position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
     left: -15%;
     margin-top: -35%;
-    border: 2px solid red;
+    
 }
 
 .boll {
@@ -209,3 +213,53 @@
    top: 80%;
  
 }
+/* Habits styles start */
+.section-title {
+    width: 476px;
+    height: 160px;
+    color: #FFFFFF80;
+    border: 2px solid red;
+    margin: 70px auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-title h1 {
+    margin-top: 5%;
+    font-size: 35px;
+    color: white;
+}
+
+.section-card {
+    
+    gap: 25px;
+    width: 900px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: -5%;
+    /* background-color: #808080f2; */
+    border: 2px solid turquoise;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.section-card img {
+    /* width: 80%;
+    height: 60%; */
+    border-radius: 100px;
+}
+
+.section-content h2{
+    color: white;
+    font-size: 1rem;
+}
+
+.section-content p{
+    color: #FFFFFF80;
+}
+
+
