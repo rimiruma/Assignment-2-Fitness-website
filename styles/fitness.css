@@ -57,6 +57,9 @@
     width: 400px;
     height: 50px;
     margin-right: 60px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
     /* border: 2px solid tomato; */
 }
 
@@ -194,7 +197,7 @@
     position: absolute;
     width: 30px;
     height: 30px;
-    border-radius: 10px;
+    border-radius: 100px;
     display: flex;
     left: 2px;
     top: 10px;
@@ -210,9 +213,15 @@
 
 .card-2 p{
     position: absolute;
-   top: 80%;
+   top: 40%;
+    
  
 }
+
+/* .main{
+    max-width: 1440px;
+    margin: 0 auto;
+} */
 /* Habits styles start */
 .section-title {
     width: 476px;
@@ -231,25 +240,27 @@
     color: white;
 }
 
+.section-content{
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+
 .section-card {
     
     gap: 25px;
-    width: 900px;
-    height: 300px;
-    margin: 0 auto;
-    margin-top: -5%;
+    margin-top: -7%;
     /* background-color: #808080f2; */
     border: 2px solid turquoise;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     text-align: center;
     justify-content: center;
     align-items: center;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
 }
 
 .section-card img {
-    /* width: 80%;
-    height: 60%; */
     border-radius: 100px;
 }
 
