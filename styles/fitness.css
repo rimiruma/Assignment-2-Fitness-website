@@ -273,4 +273,46 @@
     color: #FFFFFF80;
 }
 
+/* run section styles here */
+.about-section {
+    width: 900px;
+    height: 300px;
+    /* display: flex; */
+    background-color: #8080804f;
+    margin: 40px auto;
+    border: 2px solid red;
+}
+
+.about-section img {
+    width: 250px;
+    height: 250px;
+    border-radius: 28px;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+.about-section-title h1 {
+    margin-right: 60%;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-left: 20px;
+}
+
+.about-section-title p {
+    margin-right: 65px;
+    margin-top: -3%;
+    color: #808080f2;
+    padding-left: 20px;
+}
+
+.about-section-title .btn-primary{
+    margin-right: 60%;
+}
+
+.about-section {
+    display: flex;
+}
+
+
 
