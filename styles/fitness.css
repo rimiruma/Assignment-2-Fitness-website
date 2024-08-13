@@ -38,7 +38,7 @@
     justify-content: space-between;
     align-items: center;
     display: flex;
-   
+
 
 }
 
@@ -190,7 +190,7 @@
     background: rgba(255, 255, 255, 0.1);
     left: -15%;
     margin-top: -35%;
-    
+
 }
 
 .boll {
@@ -204,24 +204,21 @@
     background-color: #E6533C;
 }
 
-.card-2 h1{
+.card-2 h1 {
     position: absolute;
-   margin-top: -20%;
-   left: 130%;
+    margin-top: -20%;
+    left: 130%;
 
 }
 
-.card-2 p{
+.card-2 p {
     position: absolute;
-   top: 40%;
-    
- 
+    top: 40%;
+
+
 }
 
-/* .main{
-    max-width: 1440px;
-    margin: 0 auto;
-} */
+
 /* Habits styles start */
 .section-title {
     width: 476px;
@@ -240,14 +237,14 @@
     color: white;
 }
 
-.section-content{
+.section-content {
     max-width: 900px;
     margin: 0 auto;
-    
+
 }
 
 .section-card {
-    
+
     gap: 25px;
     margin-top: -7%;
     /* background-color: #808080f2; */
@@ -264,12 +261,12 @@
     border-radius: 100px;
 }
 
-.section-content h2{
+.section-content h2 {
     color: white;
     font-size: 1rem;
 }
 
-.section-content p{
+.section-content p {
     color: #FFFFFF80;
 }
 
@@ -307,67 +304,62 @@
 
     color: #808080f2;
 }
+
 /* calculate section start */
-.calculator-text {
-    width: 476px;
-    height: 120px;
-    margin: 0 auto;
-    text-align: center;
+.calculator-container {
+
+    background: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    height: 500px;
+    border: 2px solid red;
+}
+
+.input-content h1{
+color: white;
+}
+
+.input-content p{
+    color: white;
+}
+
+.calculator-title-container {
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid tomato;
+
 }
 
-.calculator-text h1 {
-    font-size: 25px;
-    color: #ffffff;
+.calculator-title-container
+h1 {
+    color: white;
 }
 
-.calculator-text p {
-    color: #8080809a;
+.calculator-title-container p {
+    color: white;
 }
 
-.calculate {
-    width: 1240px;
-    height: 400px;
-    margin-top: 3%;
-    display: flex;
-    background-color: #80808033;
-    border: 2px solid brown;
+.table-container{
+    color: white;
 }
 
-.calculate-text p {
-    margin-left: 50%;
-}
-
-.calculator-chart h1 {
-    color: #ffffff;
-    margin-top: 5%;
-    padding-left: 120px
-   
-}
 
 .table-data {
-    margin-left: 8%;
-    margin-top: -25%;
-    padding: 5px 20px;
-    /* border: 2px solid #696969; */
+    position: absolute;
+    color: red;
 }
 
 tr,
 th,
 td {
     padding: 5px 20px;
-    border: 2px solid #696969;
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-collapse: collapse;
 }
 
-th{
-    color: #ffffff;
-}
-
 td {
-    background: rgba(255, 255, 255, 0.1);
+
     color: #ffffff57;
 }
 
@@ -375,98 +367,41 @@ td {
     border-collapse: collapse;
 }
 
-.input{
-   display: grid;
-   grid-template-columns: repeat(2,1fr);
-   margin-right: -100%;
+.bmi {
+    color: #FFFFFF;
 }
 
-.bmi-container {
-    margin-left: 40%;
-    margin-top: -21%;
+.input-content {
+    margin-right: -20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.bmi-container h1 {
-    margin-left: 15%;
-    color: #ffffff;
+.input-content p {
+    margin-top: -1%;
+    margin-left: 10%;
 }
 
-.bmi-container p {
-    margin-left: 15%;
-    color: #808080f2;
+.input-form {
+    gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+   
+    
 }
 
-.cm {
-    margin-left: 49%;
-}
-
-.text {
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.1);
-    padding: 12px 40px 12px 20px;
-    border: none;
-
-}
-
-.age {
-    margin-left: 49%;
-    margin-top: 1%;
-}
-
-.sex {
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.1);
-    padding: 12px 40px 12px 20px;
-    border: none;
-}
-
-.factor {
-    width: 450px;
-    height: 22px;
-    margin-left: 49%;
-    margin-top: 1%;
-}
-
-.an {
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.1);
-    padding: 12px 265px 12px 20px;
-    border: none;
-}
-
-.select-1 {
-    margin-left: 82%;
-    background: rgba(255, 255, 255, 0.1);
-    cursor: pointer;
-    border: none;
-    color: #ffffff;
-}
-
-.select {
-    margin-right: -23%;
-    background: rgba(255, 255, 255, 0.1);
-    border: none;
-    margin-left: -5%;
-    cursor: pointer;
-    color: #ffffff;
+.input-form input{
+background-color: rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+padding: 12px 60px 16px 20px;
 
 }
 
-.item {
-    /* margin-left: 95%; */
-    margin-top: -8%;
+.title {
+    margin-top: 5%;
 }
 
-.btn {
-    margin-top: 3%;
-    margin-left: 50%;
-}
-
-
-
-
-
-
-
-
-
+ 
