@@ -71,5 +71,74 @@
         font-size: 18px;
     }
 
+    .calculator-text{
+        width: 100%;
+        margin-left: -20%;
+       
+    }
+
+    .calculate{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin-left: -25%;
+
+    }
+
+    .calculator-chart h1{
+        width: 100%;
+        font-size: 16px;
+       
+    }
+
+    .table-data{
+        width: 100%;
+        margin-top: 30px;
+        margin-left: -0%;
+    }
+
+    .bmi-container h1{
+        margin-top: 45%;
+        width: 100%;
+        margin-left: -140px;
+    }
+
+    .bmi-container p{
+        width: 100%;
+        margin-left: -40px;
+        margin-left: -140px;
+    }
+
+    .input{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cm {
+        margin-left: -8%;
+    }
+
+    .age {
+        margin-left: -8%;
+        margin-top: 1%;
+    }
+
+    .an {
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 12px 242px 12px 20px;
+        margin-left: -55%;
+        border: none;
+    }
+
+    .btn {
+        margin-top: 5%;
+       
+    }
+    
+
+    
+
     
 }
