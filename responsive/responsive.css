@@ -37,12 +37,15 @@
 
     /* Habits section responsive start */
     .section-card {
+        width: 100%;
+        height: 100%;
         grid-template-columns: repeat(1, 1fr);
 
     }
 
     .section-title {
         width: 100%;
+        font-size: 18px;
     }
 
     .br {
@@ -55,6 +58,11 @@
         align-items: start;
         width: 100%;
         height: 100%;
+        
+    }
+
+    .about-section-container{
+        
     }
 
     .about-section img {
@@ -77,48 +85,33 @@
 
     /* calculator responsive start */
     .calculator-title-container{
+        width: auto;
+        height: auto;
+    }
+    .table-container{
+        display: flex;
         flex-direction: column;
+        width: auto;
+        height: auto;
     }
 
-    .input-content{
-        width: 80%;
-        flex-direction: column;
-        margin-top: 40%;
-        margin-left: 25%;
+    .table-title{
+        width: auto;
+        height: auto;
     }
 
-    .input-content h1{
-        width: 100%;
-       margin-left: -60%;
+    .input-container{
+        width: auto;
+        height: auto;
     }
-
-    .input-content p{
-        width: 100%;
-        margin-left: -60%;
-        font-size: 16px;
-        display: none;
-    }
-
-    .input-form input{
-        width: 100%;
-        margin-left: -50%;
-        padding: 5px 5px 16px 10px;
-    }
-
-    .input-form{
-        width: 100%;
-        gap: 10%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
+    /* meet section responsive start */
     .meet-content{
         width: 100%;
        
     }
 
     .meet-card{
-        gap: 15px;
+        gap: 30px;
         width: 100%;
         display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -126,8 +119,8 @@
 
     .row-1,
  img{
-    width: 350px;
-    height: 350px;
+    width: 365px;
+    height: 365px;
     border-radius: 30px;
 }
 
